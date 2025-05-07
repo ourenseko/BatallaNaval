@@ -23,7 +23,7 @@ Descargar: https://github.com/ourenseko/BatallaNaval/releases/tag/Version
 | Jugador | Disparos Totales | Aciertos | Fallos | Precisión |
 | ------- | ---------------- | -------- | ------ | --------- |
 | Humano  | 38               | 16       | 22     | 42.1%     |
-| IA      | 37               | 12       | 25     | 48.0%     |
+| IA      | 37               | 12       | 25     | 32.4%     |
 
 
 
