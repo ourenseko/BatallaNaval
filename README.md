@@ -15,40 +15,17 @@ Descargar: https://github.com/ourenseko/BatallaNaval/releases/tag/Version
 * `*`: Agua (disparo fallido)
 * `~`: Casilla no disparada
 
----
-
-### 📊 Análisis 
-
-Contamos todos los `X` en el tablero (independientemente de si fueron aciertos o fallos):
-
-* Total de `X`: **13**
-
-Contamos también los `O` intactos (que indican disparos fallidos si no fueron convertidos a `X`) — IA disparó en esas casillas y falló:
-
-* O intactos: 5 → (4,4), (5,5), (5,6), (5,7), (6,5), (6,7), (7,5), (7,7)
-  (de esos, solo 3 siguen siendo `O`, por tanto **5 más han sido impactados** y ya están en el conteo de `X`)
-
-Sumamos:
-
-* `X`: 13 (aciertos)
-* `*`: 10 fallos (las 10 `O` que no se convirtieron aún en `X` ni están impactadas)
-
-➡️ **Total disparos IA**: **13 + 10 = 23**
-➡️ **Aciertos**: 13
-➡️ **Fallos**: 10
-➡️ **Precisión IA**: 13 / 23 ≈ **56.5%**
 
 ---
 
-### ✅ Resumen Final Corregido
+### ✅ Resumen Final 
 
 | Jugador | Disparos Totales | Aciertos | Fallos | Precisión |
 | ------- | ---------------- | -------- | ------ | --------- |
-| Tú      | 24               | 11       | 13     | 45.8%     |
-| IA      | 23               | 13       | 10     | 56.5%     |
+| Humano  | 38               | 16       | 22     | 42.1%     |
+| IA      | 37               | 12       | 25     | 48.0%     |
 
 
-Gracias por compartir el código. Aquí va un análisis claro del comportamiento de la IA basado en tu implementación:
 
 ---
 
@@ -72,8 +49,7 @@ Gracias por compartir el código. Aquí va un análisis claro del comportamiento
 
 **Respuesta:** **Sí, parcialmente.** No es completamente aleatoria, ya que:
 
-* Tiene un disparo dirigido después de un acierto.
-* Su 56% de acierto se justifica porque acierta una vez y suele encadenar 1–2 disparos acertados más antes de reiniciar.
+* Tiene un disparo dirigido después de un acierto y suele encadenar 1–2 disparos acertados más antes de reiniciar.
 
 ---
 
@@ -83,4 +59,6 @@ Gracias por compartir el código. Aquí va un análisis claro del comportamiento
 2. **Determinar dirección (horizontal o vertical)** tras dos aciertos.
 3. **Expandir en esa línea hasta hundir el barco.**
 
-¿Quieres que te ayude a mejorar esa lógica de disparo?
+Nivel de dificultad: Marina
+Nivel actual: Niño rata.
+
