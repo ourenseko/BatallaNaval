@@ -1,6 +1,6 @@
 # Hundir la Flota - Juego de terminal 
 
-Descargar: 
+Descargar: https://github.com/ourenseko/BatallaNaval/releases/tag/Version
 Requisitos: Java runtime.
 
 
