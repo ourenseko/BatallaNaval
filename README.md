@@ -5,13 +5,10 @@ Descargar: https://github.com/ourenseko/BatallaNaval/releases/tag/Version
 ![screnshot](https://github.com/user-attachments/assets/e8927850-6f68-4785-bb35-7ff1dc48a92c)
 
 
-![scrinshot](https://github.com/user-attachments/assets/230c1ce4-e847-4a40-b952-dc24efe95099)
 
 
 
 
-
-Gracias por el mapa. Vamos a analizar los disparos y su efectividad con base en la información proporcionada.
 
 ---
 
@@ -97,4 +94,9 @@ Buscamos `X` en posiciones donde hay barcos (`O` o `X` que originalmente eran `O
 
 ---
 
-¿Te gustaría una visualización del mapa completo con todos los disparos y barcos?
+
+
+
+![scrinshot](https://github.com/user-attachments/assets/230c1ce4-e847-4a40-b952-dc24efe95099)
+
+
