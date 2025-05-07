@@ -48,35 +48,39 @@ Sumamos:
 | IA      | 23               | 13       | 10     | 56.5%     |
 
 
+Gracias por compartir el código. Aquí va un análisis claro del comportamiento de la IA basado en tu implementación:
 
-🧠 ¿La IA es inteligente o aleatoria?
-✅ Lo que hace bien:
-No repite disparos: Se asegura de que solo dispara si la casilla tiene AGUA.
+---
 
-Tiene memoria de impacto: Guarda la posición de ultimoImpacto si acierta.
+### 🧠 ¿La IA es inteligente o aleatoria?
 
-Lógica de búsqueda en cruz: Tras un acierto, prueba las 4 direcciones (arriba, abajo, izquierda, derecha) en el siguiente turno.
+#### ✅ Lo que hace bien:
 
-🚫 Lo que no hace:
-No busca en línea tras varios impactos consecutivos.
+1. **No repite disparos**: Se asegura de que solo dispara si la casilla tiene `AGUA`.
+2. **Tiene memoria de impacto**: Guarda la posición de `ultimoImpacto` si acierta.
+3. **Lógica de búsqueda en cruz**: Tras un acierto, prueba las 4 direcciones (arriba, abajo, izquierda, derecha) **en el siguiente turno**.
 
-No sigue una orientación una vez detecta dos impactos alineados.
+#### 🚫 Lo que **no** hace:
 
-Si prueba las 4 direcciones tras un impacto y no acierta, olvida todo (ultimoImpacto = null).
+* No busca en línea tras varios impactos consecutivos.
+* No sigue una orientación una vez detecta dos impactos alineados.
+* Si prueba las 4 direcciones tras un impacto y no acierta, **olvida todo** (`ultimoImpacto = null`).
 
-🤖 Entonces... ¿es IA inteligente?
-Respuesta: Sí, parcialmente. No es completamente aleatoria, ya que:
+---
 
-Tiene un disparo dirigido después de un acierto.
+### 🤖 Entonces... ¿es IA inteligente?
 
-Su 56% de acierto se justifica porque acierta una vez y suele encadenar 1–2 disparos acertados más antes de reiniciar.
+**Respuesta:** **Sí, parcialmente.** No es completamente aleatoria, ya que:
 
-🧪 Sugerencia para mejorar la IA (si quieres hacerlo más fuerte):
-Guardar todos los impactos recientes si están conectados.
+* Tiene un disparo dirigido después de un acierto.
+* Su 56% de acierto se justifica porque acierta una vez y suele encadenar 1–2 disparos acertados más antes de reiniciar.
 
-Determinar dirección (horizontal o vertical) tras dos aciertos.
+---
 
-Expandir en esa línea hasta hundir el barco.
+### 🧪 Sugerencia para mejorar la IA (si quieres hacerlo más fuerte):
 
+1. **Guardar todos los impactos recientes** si están conectados.
+2. **Determinar dirección (horizontal o vertical)** tras dos aciertos.
+3. **Expandir en esa línea hasta hundir el barco.**
 
-
+¿Quieres que te ayude a mejorar esa lógica de disparo?
