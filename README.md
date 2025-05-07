@@ -1,5 +1,4 @@
-# BatallaNaval
-Juego de terminal Hundir la Flota
+# Hundir la Flota - Juego de terminal 
 
 Descargar: https://github.com/ourenseko/BatallaNaval/raw/refs/heads/main/undirlaflota/dist/undirlaflota.jar
 
