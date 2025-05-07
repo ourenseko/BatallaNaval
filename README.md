@@ -49,5 +49,34 @@ Sumamos:
 
 
 
+🧠 ¿La IA es inteligente o aleatoria?
+✅ Lo que hace bien:
+No repite disparos: Se asegura de que solo dispara si la casilla tiene AGUA.
+
+Tiene memoria de impacto: Guarda la posición de ultimoImpacto si acierta.
+
+Lógica de búsqueda en cruz: Tras un acierto, prueba las 4 direcciones (arriba, abajo, izquierda, derecha) en el siguiente turno.
+
+🚫 Lo que no hace:
+No busca en línea tras varios impactos consecutivos.
+
+No sigue una orientación una vez detecta dos impactos alineados.
+
+Si prueba las 4 direcciones tras un impacto y no acierta, olvida todo (ultimoImpacto = null).
+
+🤖 Entonces... ¿es IA inteligente?
+Respuesta: Sí, parcialmente. No es completamente aleatoria, ya que:
+
+Tiene un disparo dirigido después de un acierto.
+
+Su 56% de acierto se justifica porque acierta una vez y suele encadenar 1–2 disparos acertados más antes de reiniciar.
+
+🧪 Sugerencia para mejorar la IA (si quieres hacerlo más fuerte):
+Guardar todos los impactos recientes si están conectados.
+
+Determinar dirección (horizontal o vertical) tras dos aciertos.
+
+Expandir en esa línea hasta hundir el barco.
+
 
 
