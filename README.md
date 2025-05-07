@@ -58,7 +58,8 @@ Descargar: https://github.com/ourenseko/BatallaNaval/releases/tag/Version
 1. **Guardar todos los impactos recientes** si están conectados.
 2. **Determinar dirección (horizontal o vertical)** tras dos aciertos.
 3. **Expandir en esa línea hasta hundir el barco.**
+4. **Si falla en un extremo, probar el otro** (como humanos lo haríamos).
 
-Nivel de dificultad: Marina
-Nivel actual: Niño rata.
+
+💡 Añadir dificultades: **“Niño rata” ó “Marina”**
 
